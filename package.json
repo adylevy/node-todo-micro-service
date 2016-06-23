@@ -1,0 +1,16 @@
+{
+  "name": "todo-widget",
+  "version": "1.0.0",
+  "description": "todo app",
+  "main": "static-service/app.js",
+  "scripts": {
+    "start": "node static-service/app.js & node entity-access-service/app.js & node api-service/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {
+    "express" : "4.x",
+    "cors" : "2.7"
+  },
+  "author": "Ady Levy",
+  "license": "ISC"
+}
